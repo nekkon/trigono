@@ -1,0 +1,59 @@
+.title{
+    font-size: 24px;
+    margin: 50% auto 0 auto;
+    display: block;
+}
+.sub_title{
+    font-size: 20px;
+}
+
+.screen{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+}
+#boot_screen{
+    display: block;
+    background-color: #008822;
+}
+#main_screen{
+    display: none;
+    background-color: #FFFFFF;
+}
+.trigono{
+    margin: 50% auto 0 auto;
+    width: 120px;
+    height: 120px;
+}
+.trigono div{
+    width: 5px;
+    height: 120px;
+    background-color: #000000;
+    position: absolute;
+    border-radius: 10px;
+}
+#bar1{
+    margin-left: 20px;
+
+    -ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Safari */
+    transform: rotate(30deg);
+}
+#bar2{
+    margin-left: 85px;
+
+    -ms-transform: rotate(-30deg); /* IE 9 */
+    -webkit-transform: rotate(-30deg); /* Safari */
+    transform: rotate(-30deg);
+}
+#bar3{
+    margin-left: 53px;
+    margin-top: 52px;
+
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */
+    transform: rotate(90deg);
+}
