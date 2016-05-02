@@ -45,19 +45,21 @@
 <body>
 
     <div id="boot_screen" class="screen">
-        <div class="title">An app made for Spyros Debos</div>
-        <a href="http://www.nekkon.com" class="sub_title">by nekkon</a>
+        <div class="version">ver 1.0</div>
+        <div class="title_wrapper">
+            <div class="sub_title">An app for</div>
+            <div class="title">Spyros Debos</div>
+            <a href="http://www.nekkon.com" class="sub_title">by nekkon</a>
+        </div>
     </div>
 
     <div id="main_screen" class="screen">
-        <div class="trigono">
-            <div id="bar1"></div>
-            <div id="bar2"></div>
-            <div id="bar3"></div>
-        </div>
 
+        <div id="obj-trigono" class="trigono"></div>
+        <div id="info"></div>
     </div>
-
+    <script type="text/javascript" src="js/howler.min.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/trigono.js"></script>
     <script type="text/javascript">

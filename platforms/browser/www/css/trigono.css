@@ -1,10 +1,30 @@
+.version{
+    right: 30px;
+    top: 30px;
+    font-size: 21px;
+    color:  #C0C0C0;
+    position: absolute;
+}
+
+.title_wrapper{
+    left: 50%;
+    top: 50%;
+    width: 200px;
+    height: 200px;
+    margin: -100px 0 0 -100px;
+    position: absolute;
+}
 .title{
-    font-size: 24px;
-    margin: 50% auto 0 auto;
+    font-size: 34px;
     display: block;
+    color:  #FFD700;
+    width: 100%;
 }
 .sub_title{
-    font-size: 20px;
+    font-size: 24px;
+    color:  #C0C0C0;
+    width: 100%;
+    font-weight: 100;
 }
 
 .screen{
@@ -17,16 +37,17 @@
 }
 #boot_screen{
     display: block;
-    background-color: #008822;
+    background-color: #2F4F4F;
 }
 #main_screen{
     display: none;
     background-color: #FFFFFF;
 }
-.trigono{
-    margin: 50% auto 0 auto;
-    width: 120px;
-    height: 120px;
+#info{
+    width: 100%;
+    bottom: 0px;
+    height: 50px;
+    position: absolute;
 }
 .trigono div{
     width: 5px;
@@ -56,4 +77,15 @@
     -ms-transform: rotate(90deg); /* IE 9 */
     -webkit-transform: rotate(90deg); /* Safari */
     transform: rotate(90deg);
+}
+.trigono{
+    width: 120px;
+    height: 150px;
+    background: url('../img/trigono.png') no-repeat left top;
+    margin: -75px 0 0 -60px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    -webkit-transform-origin: 45% 10%;
+    transform-origin: 45% 10%;
 }
